@@ -6,7 +6,7 @@ body {
 
 textarea {
   overflow: auto;
-  background: transparent;
+  background-color: rgb(201, 196, 196);
   border: none;
   resize: none;
   color: #000000;

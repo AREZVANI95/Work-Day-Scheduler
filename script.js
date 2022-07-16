@@ -1,2 +1,5 @@
 // Variable for getting the current time.
-var currentTime  = document.querySelector("currentDay")
+var currentDay = moment();
+$('#currentDay').text(currentDay);
+// Variable for the button.
+var saveButton = document.getElementById("savBtn")
