@@ -6,13 +6,20 @@ var saveButton = document.getElementById("savBtn")
 // Variable for the Text Description
 var textBox = document.getElementById("descriptionID")
 
+
+// Displays the text saved by the user.
 function displayText() {
 
-};
+    var text = localStorage.getItem("descriptionID");
+    textBox.textContent = text;
 
-function saveText () {
+};
+// Saves the Text into the local storage
+function saveText() {
 
     var text = localStorage.getItem("descriptionID");
+    localStorage.setItem("descriptionID", text);
+    displayText();
 }
-
-saveButton.addEventListener("click", saveText);
+//Event for when "save Button is clicked"
+saveButton.addEventListener("click", displayText);
