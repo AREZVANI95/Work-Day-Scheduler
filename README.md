@@ -10,7 +10,5 @@ cloned the page pretty closely to the example having a bit of difficulty storing
 
 ## Screenshots
 ### Website Display
-![image](assets/img/Idle%20Page.PNG)
-![image](assets/img/Clicking-Generate.PNG)
-![image](assets/img/GeneratingPass.PNG)
-![image](assets/img/Result.PNG)
+![image](Develop/img/Web-Main.PNGimg)
+![image](Develop/img/Text-Boxes-With-Text.PNG)
